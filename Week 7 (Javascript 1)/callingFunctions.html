@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>Gotcha</p>
+	<p>Spooky</p>
+	<p>Cake</p>
+	<script type="text/javascript">
+		"use strict";
+
+		function showAndKill(_event){
+			alert(_event.target.innerText);
+			_event.target.innerText = '';
+		}//showAndKill()
+
+		alert(showAndKill);
+
+		const l_elementList = document.querySelectorAll('p');
+		const l_elementCount = l_elementList.length;
+		for (let t_i = 0; t_i < l_elementCount; t_i++){
+			l_elementList[t_i].onClick = showAndKill;
+		}//For
+	</script>
+</body>
+</html>

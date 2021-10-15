@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>
+If you ask I will give you:
+</p>
+
+<ul>
+	<li id="cake">Some nice chocolate cake</li>
+	<li id="coffee">A fresh-brewed cup of coffee</li>
+	<li id="compliment">An honest compliment</li>
+	<li id="car">A brand new Porsche</li>
+</ul>
+
+<p>
+One of those may have been a joke.
+</p>
+
+<script type="text/javascript">
+    "use strict";
+
+    document.getElementById("cake").onmouseover = function(){
+        document.getElementById("cake").style.fontWeight = "bold";
+    };//function
+
+    document.getElementById("cake").onmouseleave = function(){
+    	document.getElementById("cake").style.fontWeight = "normal";
+    }
+
+    document.getElementById("coffee").onmouseover = function(){
+        document.getElementById("coffee").style.fontWeight = "bold";
+    };//function
+
+    document.getElementById("coffee").onmouseleave = function(){
+    	document.getElementById("coffee").style.fontWeight = "normal";
+    }
+
+    document.getElementById("compliment").onmouseover = function(){
+        document.getElementById("compliment").style.fontWeight = "bold";
+    };//function
+
+    document.getElementById("compliment").onmouseleave = function(){
+    	document.getElementById("compliment").style.fontWeight = "normal";
+    }
+
+    document.getElementById("car").onmouseover = function(){
+        document.getElementById("car").style.fontWeight = "bold";
+    };//function
+
+    document.getElementById("car").onmouseleave = function(){
+    	document.getElementById("car").style.fontWeight = "normal";
+    }
+</script>
+</body>
+</html>

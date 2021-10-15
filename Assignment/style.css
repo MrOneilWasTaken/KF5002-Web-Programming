@@ -1,0 +1,70 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  background-color: 
+}
+#header{
+  background-color: grey;
+}
+#header h2{
+  width:30%;
+  display: inline-block;
+}
+
+#header ul{
+  width: 60%;
+  float: right;
+  display: inline-block;
+
+}
+
+#header li{
+  display: inline-block;
+  float: right;
+  padding-left: 10px;
+}
+
+#orderForm{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-style: solid;
+}
+
+nav{
+  float: left;
+  border-style: solid;
+  padding: 10px;
+}
+
+nav form{
+  display: inline-block
+}
+
+nav label{
+  text-align: center;
+}
+
+article{
+  float: right;
+  border-style: solid;
+}
+
+.container{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-style: solid;
+}
+
+.chooseBookListTitle{
+  text-align: center;
+  margin-bottom: 25px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+

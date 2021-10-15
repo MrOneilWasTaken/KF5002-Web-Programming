@@ -1,0 +1,2 @@
+Mon Nov 9 13:59:17 GMT 2020 | SQLSTATE[42S22]: Column not found: 1054 Unknown column 'moviID' in 'field list'
+Tue Nov 10 10:14:22 GMT 2020 | SQLSTATE[42S22]: Column not found: 1054 Unknown column 'moviID' in 'field list'

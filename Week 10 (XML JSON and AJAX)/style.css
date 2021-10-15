@@ -1,0 +1,32 @@
+body {
+ max-width: 700px;
+ margin: auto;
+}
+
+h1, h2 {
+ text-align: center;
+ margin: 10px 0px 0px 0px;
+}
+
+section {
+ margin: 5px;
+ padding: 5px;
+ border: 0px solid black;
+}
+
+img {
+ width: 100%;
+}
+
+.container {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.imgContainer {
+ background-color: lightgrey;
+ height: 350px;
+ width: 200px;
+ overflow: scroll;
+}

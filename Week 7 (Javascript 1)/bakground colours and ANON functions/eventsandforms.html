@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Colour Changer</h1>
+<h2 id="pink">Pink</h2>
+<h2 id="blue">Sky Blue</h2>
+<h2 id="green">Light Green</h2>
+<script type="text/javascript">
+    "use strict";
+    const g_pinkHeader = document.getElementById("pink");
+    g_pinkHeader.onclick = makePink;
+
+    const g_blueHeader = document.getElementById("blue");
+    g_blueHeader.onclick = makeBlue;
+
+    const g_greenHeader = document.getElementById("green");
+    g_greenHeader.onclick = makeGreen;
+
+    function makePink(){
+        document.body.style.background = "Pink";
+    }//makePin()
+
+    function makeBlue(){
+        document.body.style.background = "AliceBlue";
+    }//makeBlue()
+
+    function makeGreen(){
+        document.body.style.background = "PaleGreen";
+    }//makeGreen()
+</script>
+</body>
+</html>

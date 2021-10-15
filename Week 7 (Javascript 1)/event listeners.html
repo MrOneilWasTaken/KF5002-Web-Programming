@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>I Can't Think Of A Page Title</h1>
+
+<div id="Headings">
+    <h2 id="head_1">Stuff</h2>
+    <h2 id="head_2">Nonsense</h2>
+</div>
+
+<script type="text/javascript">
+    "use strict";
+    function showAlert(){
+        alert("Ooh, cheeky!");
+    }//showAlert()
+
+    function goRed(_evt){
+        _evt.currentTarget.style.color = "red";
+    }//goRed()
+
+    const l_firstHeading = document.getElementById("head_1");
+    const l_secondHeading = document.getElementById("head_2");
+
+    l_firstHeading.addEventListener("click", showAlert);
+    l_secondHeading.addEventListener("click", goRed);
+    l_firstHeading.addEventListener("click", goRed);
+
+</script>
+</html>

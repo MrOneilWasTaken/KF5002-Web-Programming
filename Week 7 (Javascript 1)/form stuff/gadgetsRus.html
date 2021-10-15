@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Gadgets R Us JS Tutor 2</title>
+   <link rel="stylesheet" type="text/css" href = "gadgets.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Gadgets R Us</h1>
+    </header>
+	<nav>
+        <ul>
+            <li><a href="#">Radio Control</a></li>
+            <li><a href="#">Audio</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Retro</a></li>
+            <li><a href="#">Board games</a></li>
+            <li><a href="#">Gifts</a></li>
+            <li><a href="#">Sale</a></li>
+        </ul>
+	</nav>
+	<main>
+		<form action="#" id="orderForm">
+            <fieldset>
+                <legend>Special offers</legend>
+                <section class="advert">
+					<h2>Digital slot racing system</h2>
+                    <p><img class="img" src="SCX%20Digital%20Racing_sml.jpg" alt="SCX Digital Racing">
+						With this staggeringly hi-tech digital slot racing system, the technology is in the car,
+						not the track. This means you can race, switch lanes and overtake with up to 6 cars at a time,
+						on a circuit with just two lanes. Go! Go! Go!</p>
+					<label class="price">
+						<strong>Add to Cart</strong>
+						<input type="checkbox" name="DigRacing" data-value="99.95">
+					</label>
+		        </section>
+                <section class="advert">
+					<h2>Atari VCS joystick</h2>
+					<p><img class="img" src="Atari%20Classics%2010-in-1_sml.gif" alt="Atari Classics 10-in-1">
+						Imagine owning a classic Atari VCS joystick. Now imagine that the joystick itself is a
+						self-contained plug-and-play gaming system pre-loaded with 10 classic Atari games.
+						Imagine no more, because the amazing Atari Classics 10-in-1 has arrived. Blip blop and Amen!</p>
+					<label class="price">
+						<strong>Add to Cart</strong>
+						<input type="checkbox" name="AtariJoystick" data-value="19.99">
+					</label>
+                </section>
+                <section class="advert">
+					<h2>Limited edition Force FX Lightsaber</h2>
+					<p><img class="img" src="Force%20FX%20Lightsaber%20Collectible_sml.jpg" alt="Force FX Lightsaber Collectible">
+						It is unavoidable... it is your destiny to own a staggeringly realistic, limited edition
+						Force FX Lightsaber. Featuring five motion sensors, digitally recorded sound FX, a
+						glowing polycarbonate blade and gleaming metal hilt, this is the Empire Strikes Back of Star Wars
+						weaponry. Pshwooohhh!</p>
+					<label class="price">
+						<strong>Add to Cart</strong>
+						<input type="checkbox" name="FXLightsaber" data-value="299.95">
+					</label>
+                </section>
+            </fieldset>
+            <fieldset>
+                <legend>Shipping</legend>
+				<label>UK - 3.95 <input type="radio" name="area" value="UK" data-value="3.95"></label> &nbsp;|&nbsp;
+                <label>EU (not UK) - 5.95<input type="radio" name="area" value="EU" data-value="5.95"></label> &nbsp;|&nbsp;
+                <label>Outside EU - 10.95<input type="radio" name="area" value="worldwide" data-value="10.95"></label>
+			</fieldset>
+            <fieldset>
+                <legend>Total</legend>  
+                <input type="button" name="CheckValue" value="Calculate cost">&nbsp;
+                <label>Total <input type="text" name="total" size="10" readonly="readonly"></label>&nbsp;
+                <label>VAT: <span id="vat">&pound; 0</span></label> &nbsp;
+                <label>Total (inc VAT) <input type="text" name="grandTotal" readonly="readonly"></label>   
+            </fieldset>
+            <fieldset>
+				<legend>Your details &amp; T&Cs</legend>
+                <label class="cost">Surname <input type="text" name="surname" placeholder="type your surname"></label>
+                <label class="cost">Date of birth <input type="date" name="dob"></label>
+                <label class="cost">I accept the terms and conditions <input type="checkbox" name="hasreadterms"></label>
+            </fieldset>
+			<input type="submit" name="submit" value="Order now!">
+		</form>
+	</main>
+	<footer>Product images and text taken from <a href="http://www.firebox.com/">firebox.com</a> for demonstration purposes only. This page is adapted from a page created by Rob Davis.</footer>
+</div> <!-- end the wrapper -->
+<script type="text/javascript" src="formProcess.js"></script>
+</body>
+</html>
